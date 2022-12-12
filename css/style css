@@ -1,0 +1,139 @@
+body {
+        background-color: #2e2727;
+        font-family: 'Roboto', sans-serif;
+        padding: 20px 10px;
+       
+}
+
+.header{
+    display: block;
+    text-align: center;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+ .header a:hover{
+    color: gold;
+ }
+ 
+ .news{
+    background-color: rgb(229, 227, 223);
+    padding: 0 20px;
+	margin-top: 40px;
+	border-radius: 10px;
+    
+
+ }
+ .title {
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 100%;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    padding-left: 5px;
+    color: black;
+    background-color: white;
+ }
+
+ .two-containers{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+ }
+
+ .first {
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    text-decoration: none;
+    
+ }
+ .black{
+    color: black;
+    margin-bottom: 5px;
+ }
+ td{
+    color: rgb(183, 184, 184);
+    
+ }
+
+ .img{
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_485655/resize/photo_415755.jpeg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 10px;
+    
+ }
+ .img-2{
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_485654/thumb_m/photo_415757.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 10px;
+ }
+
+ .three-containers{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    
+ }
+ .second{
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    margin-bottom: 30px;
+    text-decoration: none;
+
+ }
+
+ .img-3{
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_485649/thumb_m/photo_415749.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin-bottom: 10px;
+
+ }
+ .img-4{
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_485663/thumb_m/photo_415762.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin-bottom: 10px;
+
+ }
+ .img-5{
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_485625/thumb_m/photo_415758.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin-bottom: 10px;
+
+ }
+ 
+ .first:hover{
+    cursor: pointer;
+ }
+
+ .second:hover{
+    cursor: pointer;
+ }
+ .title:hover{
+    cursor: pointer;
+ }
+ table{
+    border-spacing: 10px;
+ }
+
+ .size{
+    border-spacing: 19px;
+ }
